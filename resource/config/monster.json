@@ -1,0 +1,214 @@
+[
+  {
+    "id": 1,
+    "name": "市民僵尸",
+    "type": 1,
+    "hp": 200,
+    "speed_move": 15,
+    "coin": 2,
+    "speed_attack": 0.2,
+    "force_attack": 20,
+    "dist_shoot": 0,
+    "level_hp": 20,
+    "level_speed_hp": 0,
+    "level_coin": 0.2,
+    "level_force_attack": 10,
+    "level_speed_attack": 0,
+    "level_dist_shoot": 0
+  },
+  {
+    "id": 2,
+    "name": "缝合怪",
+    "type": 1,
+    "hp": 2000,
+    "speed_move": 10,
+    "coin": 20,
+    "speed_attack": 0.2,
+    "force_attack": 50,
+    "dist_shoot": 0,
+    "level_hp": 200,
+    "level_speed_hp": 0,
+    "level_coin": 2,
+    "level_force_attack": 25,
+    "level_speed_attack": 0,
+    "level_dist_shoot": 0
+  },
+  {
+    "id": 3,
+    "name": "僵尸猎犬",
+    "type": 1,
+    "hp": 100,
+    "speed_move": 30,
+    "coin": 1,
+    "speed_attack": 0.2,
+    "force_attack": 10,
+    "dist_shoot": 0,
+    "level_hp": 10,
+    "level_speed_hp": 0,
+    "level_coin": 0.1,
+    "level_force_attack": 5,
+    "level_speed_attack": 0,
+    "level_dist_shoot": 0
+  },
+  {
+    "id": 4,
+    "name": "士兵僵尸",
+    "type": 1,
+    "hp": 500,
+    "speed_move": 15,
+    "coin": 5,
+    "speed_attack": 0.2,
+    "force_attack": 20,
+    "dist_shoot": 0,
+    "level_hp": 50,
+    "level_speed_hp": 0,
+    "level_coin": 0.5,
+    "level_force_attack": 10,
+    "level_speed_attack": 0,
+    "level_dist_shoot": 0
+  },
+  {
+    "id": 5,
+    "name": "医生僵尸",
+    "type": 1,
+    "hp": 200,
+    "speed_move": 15,
+    "coin": 2,
+    "speed_attack": 0.2,
+    "force_attack": 20,
+    "dist_shoot": 300,
+    "level_hp": 20,
+    "level_speed_hp": 0,
+    "level_coin": 0.2,
+    "level_force_attack": 10,
+    "level_speed_attack": 0,
+    "level_dist_shoot": 0
+  },
+  {
+    "id": 6,
+    "name": "巨大市民僵尸",
+    "type": 1,
+    "hp": 400,
+    "speed_move": 15,
+    "coin": 4,
+    "speed_attack": 0.2,
+    "force_attack": 40,
+    "dist_shoot": 0,
+    "level_hp": 40,
+    "level_speed_hp": 0,
+    "level_coin": 0.4,
+    "level_force_attack": 20,
+    "level_speed_attack": 0,
+    "level_dist_shoot": 0
+  },
+  {
+    "id": 7,
+    "name": "巨大缝合怪",
+    "type": 1,
+    "hp": 4000,
+    "speed_move": 10,
+    "coin": 40,
+    "speed_attack": 0.2,
+    "force_attack": 100,
+    "dist_shoot": 0,
+    "level_hp": 400,
+    "level_speed_hp": 0,
+    "level_coin": 4,
+    "level_force_attack": 50,
+    "level_speed_attack": 0,
+    "level_dist_shoot": 0
+  },
+  {
+    "id": 8,
+    "name": "巨大僵尸猎犬",
+    "type": 1,
+    "hp": 200,
+    "speed_move": 30,
+    "coin": 2,
+    "speed_attack": 0.2,
+    "force_attack": 20,
+    "dist_shoot": 0,
+    "level_hp": 20,
+    "level_speed_hp": 0,
+    "level_coin": 0.2,
+    "level_force_attack": 10,
+    "level_speed_attack": 0,
+    "level_dist_shoot": 0
+  },
+  {
+    "id": 9,
+    "name": "巨大士兵僵尸",
+    "type": 1,
+    "hp": 1000,
+    "speed_move": 15,
+    "coin": 10,
+    "speed_attack": 0.2,
+    "force_attack": 40,
+    "dist_shoot": 0,
+    "level_hp": 100,
+    "level_speed_hp": 0,
+    "level_coin": 1,
+    "level_force_attack": 20,
+    "level_speed_attack": 0,
+    "level_dist_shoot": 0
+  },
+  {
+    "id": 10,
+    "name": "巨大医生僵尸",
+    "type": 2,
+    "hp": 400,
+    "speed_move": 15,
+    "coin": 4,
+    "speed_attack": 0.2,
+    "force_attack": 40,
+    "dist_shoot": 300,
+    "level_hp": 40,
+    "level_speed_hp": 0,
+    "level_coin": 0.4,
+    "level_force_attack": 20,
+    "level_speed_attack": 0,
+    "level_dist_shoot": 0
+  },
+  {
+    "hp": null
+  },
+  {
+    "hp": null
+  },
+  {
+    "hp": null
+  },
+  {
+    "hp": null
+  },
+  {
+    "hp": null
+  },
+  {
+    "hp": null
+  },
+  {
+    "hp": null
+  },
+  {
+    "hp": null
+  },
+  {
+    "hp": null
+  },
+  {
+    "hp": null
+  },
+  {
+    "hp": null
+  },
+  {
+    "hp": null
+  },
+  {
+    "hp": null
+  },
+  {
+    "hp": null
+  }
+]

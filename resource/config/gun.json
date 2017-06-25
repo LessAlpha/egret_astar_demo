@@ -1,0 +1,682 @@
+[
+  {
+    "id": 1,
+    "name": "MP5冲锋枪",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 0
+    },
+    "type": 0,
+    "pos_put": 3,
+    "speed_attack": 100,
+    "force_attack": 60,
+    "dist_shoot": 900,
+    "coin_cost": 0,
+    "explode_head": 0,
+    "dizzy": 0,
+    "pass_enemies": 0,
+    "desc_character_only": null
+  },
+  {
+    "id": 2,
+    "name": "以色列乌兹",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 1
+    },
+    "type": 0,
+    "pos_put": 3,
+    "speed_attack": 200,
+    "force_attack": 60,
+    "dist_shoot": 700,
+    "coin_cost": 2,
+    "explode_head": 0.2,
+    "dizzy": 0,
+    "pass_enemies": 0,
+    "desc_character_only": null
+  },
+  {
+    "id": 3,
+    "name": "沙漠之鹰",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 2
+    },
+    "type": 0,
+    "pos_put": 2,
+    "speed_attack": 1000,
+    "force_attack": 80,
+    "dist_shoot": 600,
+    "coin_cost": 8,
+    "explode_head": 0,
+    "dizzy": 0,
+    "pass_enemies": 2,
+    "desc_character_only": null
+  },
+  {
+    "id": 4,
+    "name": "武士刀",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 3
+    },
+    "type": 0,
+    "pos_put": 1,
+    "speed_attack": 500,
+    "force_attack": 160,
+    "dist_shoot": 200,
+    "coin_cost": 8,
+    "explode_head": 0,
+    "dizzy": 0,
+    "pass_enemies": 2,
+    "desc_character_only": null
+  },
+  {
+    "id": 5,
+    "name": "激光剑",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 4
+    },
+    "type": 0,
+    "pos_put": 1,
+    "speed_attack": 500,
+    "force_attack": 200,
+    "dist_shoot": 300,
+    "coin_cost": 10,
+    "explode_head": 0.3,
+    "dizzy": 0,
+    "pass_enemies": 3,
+    "desc_character_only": null
+  },
+  {
+    "id": 6,
+    "name": "M4A1",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 5
+    },
+    "type": 0,
+    "pos_put": 3,
+    "speed_attack": 500,
+    "force_attack": 200,
+    "dist_shoot": 900,
+    "coin_cost": 10,
+    "explode_head": 0.1,
+    "dizzy": 0.1,
+    "pass_enemies": 0,
+    "desc_character_only": null
+  },
+  {
+    "id": 7,
+    "name": "十字弩",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 6
+    },
+    "type": 0,
+    "pos_put": 2,
+    "speed_attack": 5000,
+    "force_attack": 200,
+    "dist_shoot": 600,
+    "coin_cost": 100,
+    "explode_head": 0,
+    "dizzy": 1,
+    "pass_enemies": 3,
+    "desc_character_only": null
+  },
+  {
+    "id": 8,
+    "name": "巴雷特M82A1",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 7
+    },
+    "type": 0,
+    "pos_put": 2,
+    "speed_attack": 2000,
+    "force_attack": 200,
+    "dist_shoot": 900,
+    "coin_cost": 40,
+    "explode_head": 0.2,
+    "dizzy": 0,
+    "pass_enemies": 5,
+    "desc_character_only": null
+  },
+  {
+    "id": 9,
+    "name": "温彻斯特",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 8
+    },
+    "type": 0,
+    "pos_put": 1,
+    "speed_attack": 1000,
+    "force_attack": 250,
+    "dist_shoot": 300,
+    "coin_cost": 25,
+    "explode_head": 0.3,
+    "dizzy": 0.2,
+    "pass_enemies": 3,
+    "desc_character_only": null
+  },
+  {
+    "id": 10,
+    "name": "AK47",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 9
+    },
+    "type": 0,
+    "pos_put": 3,
+    "speed_attack": 500,
+    "force_attack": 400,
+    "dist_shoot": 900,
+    "coin_cost": 20,
+    "explode_head": 0.2,
+    "dizzy": 0.1,
+    "pass_enemies": 0,
+    "desc_character_only": null
+  },
+  {
+    "id": 11,
+    "name": "战龙大炮",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 10
+    },
+    "type": 0,
+    "pos_put": 2,
+    "speed_attack": 2000,
+    "force_attack": 400,
+    "dist_shoot": 900,
+    "coin_cost": 80,
+    "explode_head": 0.2,
+    "dizzy": 0,
+    "pass_enemies": 5,
+    "desc_character_only": null
+  },
+  {
+    "id": 12,
+    "name": "毁灭大炮",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 11
+    },
+    "type": 0,
+    "pos_put": 2,
+    "speed_attack": 2000,
+    "force_attack": 500,
+    "dist_shoot": 900,
+    "coin_cost": 100,
+    "explode_head": 0.2,
+    "dizzy": 0,
+    "pass_enemies": 5,
+    "desc_character_only": null
+  },
+  {
+    "id": 13,
+    "name": "复合弓",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 12
+    },
+    "type": 0,
+    "pos_put": 2,
+    "speed_attack": 5000,
+    "force_attack": 400,
+    "dist_shoot": 600,
+    "coin_cost": 200,
+    "explode_head": 0,
+    "dizzy": 1,
+    "pass_enemies": 3,
+    "desc_character_only": null
+  },
+  {
+    "id": 14,
+    "name": "气锤",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 13
+    },
+    "type": 0,
+    "pos_put": 1,
+    "speed_attack": 1000,
+    "force_attack": 500,
+    "dist_shoot": 300,
+    "coin_cost": 50,
+    "explode_head": 0.3,
+    "dizzy": 0.2,
+    "pass_enemies": 3,
+    "desc_character_only": null
+  },
+  {
+    "id": 15,
+    "name": "雷蛇rpk",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 14
+    },
+    "type": 0,
+    "pos_put": 3,
+    "speed_attack": 500,
+    "force_attack": 600,
+    "dist_shoot": 900,
+    "coin_cost": 30,
+    "explode_head": 0.2,
+    "dizzy": 0.1,
+    "pass_enemies": 0,
+    "desc_character_only": null
+  },
+  {
+    "id": 16,
+    "name": "AWP狙击步枪",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 15
+    },
+    "type": 0,
+    "pos_put": 2,
+    "speed_attack": 2000,
+    "force_attack": 600,
+    "dist_shoot": 900,
+    "coin_cost": 120,
+    "explode_head": 0.2,
+    "dizzy": 0,
+    "pass_enemies": 5,
+    "desc_character_only": null
+  },
+  {
+    "id": 17,
+    "name": "尼泊尔刀",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 16
+    },
+    "type": 0,
+    "pos_put": 1,
+    "speed_attack": 1000,
+    "force_attack": 800,
+    "dist_shoot": 300,
+    "coin_cost": 80,
+    "explode_head": 0.3,
+    "dizzy": 0.2,
+    "pass_enemies": 3,
+    "desc_character_only": null
+  },
+  {
+    "id": 18,
+    "name": "黄金AK",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 17
+    },
+    "type": 0,
+    "pos_put": 3,
+    "speed_attack": 500,
+    "force_attack": 800,
+    "dist_shoot": 900,
+    "coin_cost": 40,
+    "explode_head": 0.4,
+    "dizzy": 0,
+    "pass_enemies": 0,
+    "desc_character_only": null
+  },
+  {
+    "id": 19,
+    "name": "RPG火箭筒",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 18
+    },
+    "type": 0,
+    "pos_put": 2,
+    "speed_attack": 5000,
+    "force_attack": 1200,
+    "dist_shoot": 900,
+    "coin_cost": 600,
+    "explode_head": 0.2,
+    "dizzy": 1,
+    "pass_enemies": 5,
+    "desc_character_only": null
+  },
+  {
+    "id": 20,
+    "name": "妖刀村正",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 19
+    },
+    "type": 0,
+    "pos_put": 1,
+    "speed_attack": 1000,
+    "force_attack": 1200,
+    "dist_shoot": 300,
+    "coin_cost": 120,
+    "explode_head": 0.3,
+    "dizzy": 0.3,
+    "pass_enemies": 3,
+    "desc_character_only": null
+  },
+  {
+    "id": 21,
+    "name": "黄金加特林",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 20
+    },
+    "type": 0,
+    "pos_put": 3,
+    "speed_attack": 300,
+    "force_attack": 1200,
+    "dist_shoot": 900,
+    "coin_cost": 40,
+    "explode_head": 0.2,
+    "dizzy": 0.2,
+    "pass_enemies": 0,
+    "desc_character_only": null
+  },
+  {
+    "id": 22,
+    "name": "Rick的左轮手枪",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 21
+    },
+    "type": 0,
+    "pos_put": 2,
+    "speed_attack": 2000,
+    "force_attack": 1600,
+    "dist_shoot": 600,
+    "coin_cost": 320,
+    "explode_head": 0.2,
+    "dizzy": 0.1,
+    "pass_enemies": 3,
+    "desc_character_only": null
+  },
+  {
+    "id": 23,
+    "name": "Rosita的双枪",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 22
+    },
+    "type": 0,
+    "pos_put": 2,
+    "speed_attack": 500,
+    "force_attack": 1600,
+    "dist_shoot": 600,
+    "coin_cost": 80,
+    "explode_head": 0.2,
+    "dizzy": 0.1,
+    "pass_enemies": 3,
+    "desc_character_only": null
+  },
+  {
+    "id": 24,
+    "name": "Daryl的合金弩",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 23
+    },
+    "type": 0,
+    "pos_put": 2,
+    "speed_attack": 5000,
+    "force_attack": 1600,
+    "dist_shoot": 600,
+    "coin_cost": 800,
+    "explode_head": 0.2,
+    "dizzy": 0.1,
+    "pass_enemies": 5,
+    "desc_character_only": null
+  },
+  {
+    "id": 25,
+    "name": "Fort的散弹枪",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 24
+    },
+    "type": 0,
+    "pos_put": 1,
+    "speed_attack": 1000,
+    "force_attack": 1600,
+    "dist_shoot": 300,
+    "coin_cost": 160,
+    "explode_head": 0.2,
+    "dizzy": 0.1,
+    "pass_enemies": 3,
+    "desc_character_only": null
+  },
+  {
+    "id": 26,
+    "name": "Glenn的贴身匕首",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 25
+    },
+    "type": 0,
+    "pos_put": 1,
+    "speed_attack": 1000,
+    "force_attack": 1600,
+    "dist_shoot": 200,
+    "coin_cost": 160,
+    "explode_head": 0.2,
+    "dizzy": 0.1,
+    "pass_enemies": 3,
+    "desc_character_only": null
+  },
+  {
+    "id": 27,
+    "name": "祖父送的生日礼物（步枪）",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 26
+    },
+    "type": 0,
+    "pos_put": 2,
+    "speed_attack": 2000,
+    "force_attack": 1600,
+    "dist_shoot": 900,
+    "coin_cost": 320,
+    "explode_head": 0.2,
+    "dizzy": 0.1,
+    "pass_enemies": 5,
+    "desc_character_only": null
+  },
+  {
+    "id": 28,
+    "name": "Carol的狙击枪",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 27
+    },
+    "type": 0,
+    "pos_put": 2,
+    "speed_attack": 2000,
+    "force_attack": 1600,
+    "dist_shoot": 900,
+    "coin_cost": 320,
+    "explode_head": 0.2,
+    "dizzy": 0.1,
+    "pass_enemies": 5,
+    "desc_character_only": null
+  },
+  {
+    "id": 29,
+    "name": "Michonne的武士刀",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 28
+    },
+    "type": 0,
+    "pos_put": 1,
+    "speed_attack": 1000,
+    "force_attack": 1600,
+    "dist_shoot": 200,
+    "coin_cost": 160,
+    "explode_head": 0.2,
+    "dizzy": 0.1,
+    "pass_enemies": 3,
+    "desc_character_only": null
+  },
+  {
+    "id": 30,
+    "name": "Hershel的拐杖",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 29
+    },
+    "type": 0,
+    "pos_put": 1,
+    "speed_attack": 1000,
+    "force_attack": 1600,
+    "dist_shoot": 200,
+    "coin_cost": 160,
+    "explode_head": 0.2,
+    "dizzy": 0.1,
+    "pass_enemies": 3,
+    "desc_character_only": null
+  },
+  {
+    "id": 31,
+    "name": "可怕的熊孩子",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 30
+    },
+    "type": 0,
+    "pos_put": 2,
+    "speed_attack": 2000,
+    "force_attack": 1600,
+    "dist_shoot": 600,
+    "coin_cost": 320,
+    "explode_head": 0.2,
+    "dizzy": 0.1,
+    "pass_enemies": 3,
+    "desc_character_only": null
+  },
+  {
+    "id": 32,
+    "name": "魅影",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 31
+    },
+    "type": 0,
+    "pos_put": 3,
+    "speed_attack": 300,
+    "force_attack": 1800,
+    "dist_shoot": 900,
+    "coin_cost": 60,
+    "explode_head": 0.2,
+    "dizzy": 0.1,
+    "pass_enemies": 0,
+    "desc_character_only": null
+  },
+  {
+    "id": 33,
+    "name": "暴徒铁钩手（重机枪）",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 32
+    },
+    "type": 0,
+    "pos_put": 3,
+    "speed_attack": 300,
+    "force_attack": 1800,
+    "dist_shoot": 900,
+    "coin_cost": 60,
+    "explode_head": 0.2,
+    "dizzy": 0.1,
+    "pass_enemies": 0,
+    "desc_character_only": null
+  },
+  {
+    "id": 34,
+    "name": "总督之怒（机关炮）",
+    "status_equip": 0,
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 33
+    },
+    "type": 0,
+    "pos_put": 3,
+    "speed_attack": 333,
+    "force_attack": 1800,
+    "dist_shoot": 900,
+    "coin_cost": 60,
+    "explode_head": 0.2,
+    "dizzy": 0.1,
+    "pass_enemies": 0,
+    "desc_character_only": null
+  }
+]

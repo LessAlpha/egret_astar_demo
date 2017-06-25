@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "name": "Rick",
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 0
+    },
+    "hp": 1000,
+    "strength": 50,
+    "agility": 30,
+    "smart": 70,
+    "luck": 80,
+    "charm": 50,
+    "tech_special": "失控暴走",
+    "role_desc": "原本是佐治亚一座小镇的治安官，受伤昏迷后发现僵尸密布，为寻找妻儿踏上杀戮生存之旅…."
+  },
+  {
+    "id": 2,
+    "name": "Rosita",
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 0
+    },
+    "hp": 500,
+    "strength": 45,
+    "agility": 85,
+    "smart": 40,
+    "luck": 50,
+    "charm": 70,
+    "tech_special": "biu~biu~biu",
+    "role_desc": "特种兵Fort的女朋友"
+  },
+  {
+    "id": 3,
+    "name": "Daryl弩男",
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 300
+    },
+    "hp": 1500,
+    "strength": 85,
+    "agility": 50,
+    "smart": 30,
+    "luck": 25,
+    "charm": 60,
+    "tech_special": "弓弩专精",
+    "role_desc": "一名优秀的追踪者，他非常熟练于野外生存，擅长使用复合弩"
+  },
+  {
+    "id": 4,
+    "name": "Fort",
+    "condition": {
+      "pass": 10,
+      "coin": 5,
+      "diamond": 100
+    },
+    "hp": 2000,
+    "strength": 90,
+    "agility": 10,
+    "smart": 10,
+    "luck": 20,
+    "charm": 30,
+    "tech_special": "力大无穷",
+    "role_desc": "非常强悍的特种兵，就是脑子不大好使"
+  },
+  {
+    "id": 5,
+    "name": "Glenn",
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 3
+    },
+    "hp": 600,
+    "strength": 40,
+    "agility": 85,
+    "smart": 60,
+    "luck": 60,
+    "charm": 40,
+    "tech_special": "亡命飞奔",
+    "role_desc": "勇敢的亚洲人，原本是披萨送餐员，灾难爆发后展现出无以伦比的胆气帮助他人…"
+  },
+  {
+    "id": 6,
+    "name": "Maggie女神",
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 4
+    },
+    "hp": 500,
+    "strength": 30,
+    "agility": 65,
+    "smart": 35,
+    "luck": 50,
+    "charm": 70,
+    "tech_special": "祖传枪法",
+    "role_desc": "Glenn的女朋友，美丽动人，枪法精湛"
+  },
+  {
+    "id": 7,
+    "name": "Carol",
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 5
+    },
+    "hp": 500,
+    "strength": 40,
+    "agility": 60,
+    "smart": 70,
+    "luck": 85,
+    "charm": 30,
+    "tech_special": "致命伪装",
+    "role_desc": "原本是倍受欺凌的家庭妇女，灾难后家人死去，竟然成为强悍的女战士"
+  },
+  {
+    "id": 8,
+    "name": "Michonne刀妹",
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 6
+    },
+    "hp": 1000,
+    "strength": 80,
+    "agility": 80,
+    "smart": 30,
+    "luck": 30,
+    "charm": 40,
+    "tech_special": "刀术专精",
+    "role_desc": "刀法精湛的独行侠，驱使两只僵尸作为保护神"
+  },
+  {
+    "id": 9,
+    "name": "Hershel农场主",
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 7
+    },
+    "hp": 300,
+    "strength": 50,
+    "agility": 50,
+    "smart": 90,
+    "luck": 90,
+    "charm": 70,
+    "tech_special": "祖传枪法",
+    "role_desc": "Hershel一家住在祖传的农场里，与世无争，好心收留了Rick一伙"
+  },
+  {
+    "id": 10,
+    "name": "Carl正太",
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 8
+    },
+    "hp": 300,
+    "strength": 30,
+    "agility": 90,
+    "smart": 50,
+    "luck": 70,
+    "charm": 50,
+    "tech_special": "熊孩子抱摔",
+    "role_desc": "Rick的熊孩子"
+  },
+  {
+    "id": 11,
+    "name": "Lori",
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 9
+    },
+    "hp": 300,
+    "strength": 30,
+    "agility": 60,
+    "smart": 70,
+    "luck": 50,
+    "charm": 90,
+    "tech_special": "回忆魅影",
+    "role_desc": "Rick的妻子"
+  },
+  {
+    "id": 12,
+    "name": "Merle",
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 10
+    },
+    "hp": 1500,
+    "strength": 80,
+    "agility": 60,
+    "smart": 10,
+    "luck": 20,
+    "charm": 10,
+    "tech_special": "暴徒",
+    "role_desc": "Daryl的哥哥，暴徒"
+  },
+  {
+    "id": 13,
+    "name": "Governor总督",
+    "condition": {
+      "pass": 0,
+      "coin": 0,
+      "diamond": 11
+    },
+    "hp": 1000,
+    "strength": 90,
+    "agility": 70,
+    "smart": 60,
+    "luck": 40,
+    "charm": 60,
+    "tech_special": "凶残",
+    "role_desc": "Rick的死敌，可怕的独裁者"
+  }
+]

@@ -1,0 +1,5 @@
+{"file":"sheet_loading.png","frames":{
+"loading_bg":{"x":164,"y":803,"w":405,"h":52,"offX":0,"offY":0,"sourceW":405,"sourceH":52},
+"loading_jindu":{"x":1,"y":988,"w":374,"h":21,"offX":0,"offY":0,"sourceW":374,"sourceH":21},
+"baijian":{"x":1,"y":803,"w":161,"h":183,"offX":0,"offY":0,"sourceW":161,"sourceH":183},
+"bg_loading":{"x":1,"y":1,"w":480,"h":800,"offX":0,"offY":0,"sourceW":480,"sourceH":800}}}

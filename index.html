@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>cf行尸走肉</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #555555;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.web.js" src-release="libs/modules/game/game.web.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/weixinapi/weixinapi.js" src-release="libs/modules/weixinapi/weixinapi.min.js"></script>
+	<script egret="lib" src="libs/modules/SAT/SAT.js" src-release="libs/modules/SAT/SAT.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+	<script egret="lib" src="libs/myjs/global.js"></script>
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/assests/CompCoins.js"></script>
+	<script egret="game" src="bin-debug/assests/MaskRectImg.js"></script>
+	<script egret="game" src="bin-debug/assests/PointXY.js"></script>
+	<script egret="game" src="bin-debug/config/ConfMap.js"></script>
+	<script egret="game" src="bin-debug/config/GetParamConf.js"></script>
+	<script egret="game" src="bin-debug/config/MapLine.js"></script>
+	<script egret="game" src="bin-debug/config/param_conf.js"></script>
+	<script egret="game" src="bin-debug/global/AccountUser.js"></script>
+	<script egret="game" src="bin-debug/global/DataLocal.js"></script>
+	<script egret="game" src="bin-debug/global/GlobalData.js"></script>
+	<script egret="game" src="bin-debug/global/ObjConst.js"></script>
+	<script egret="game" src="bin-debug/jssdk/JSSDK.js"></script>
+	<script egret="game" src="bin-debug/jssdk/Net.js"></script>
+	<script egret="game" src="bin-debug/jssdk/NetHttp.js"></script>
+	<script egret="game" src="bin-debug/logic/MathLogicCf.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/scene_ctrl/SceneGame.js"></script>
+	<script egret="game" src="bin-debug/scene_ctrl/SceneLoading.js"></script>
+	<script egret="game" src="bin-debug/scene_game/BattlefieldCtrl.js"></script>
+	<script egret="game" src="bin-debug/scene_game/battlefield_ctrl/Bullet.js"></script>
+	<script egret="game" src="bin-debug/scene_game/battlefield_ctrl/BulletExplode.js"></script>
+	<script egret="game" src="bin-debug/scene_game/battlefield_ctrl/HpBarMonster.js"></script>
+	<script egret="game" src="bin-debug/scene_game/battlefield_ctrl/MapScene.js"></script>
+	<script egret="game" src="bin-debug/scene_game/battlefield_ctrl/Monster.js"></script>
+	<script egret="game" src="bin-debug/scene_game/battlefield_ctrl/PanelBullets.js"></script>
+	<script egret="game" src="bin-debug/scene_game/battlefield_ctrl/PanelMapComps.js"></script>
+	<script egret="game" src="bin-debug/scene_game/battlefield_ctrl/PanelMonsters.js"></script>
+	<script egret="game" src="bin-debug/scene_game/Gun.js"></script>
+	<script egret="game" src="bin-debug/scene_game/Hero.js"></script>
+	<script egret="game" src="bin-debug/scene_game/HpBarHero.js"></script>
+	<script egret="game" src="bin-debug/scene_game/Knife.js"></script>
+	<script egret="game" src="bin-debug/scene_game/PanelCoins.js"></script>
+	<script egret="game" src="bin-debug/scene_game/PanelNav.js"></script>
+	<script egret="game" src="bin-debug/scene_game/panel_coins/BoardPhoto.js"></script>
+	<script egret="game" src="bin-debug/scene_game/panel_nav/BoardNav.js"></script>
+	<script egret="game" src="bin-debug/scene_game/panel_nav/BoardTech.js"></script>
+	<script egret="game" src="bin-debug/scene_game/panel_nav/BoardWeapons.js"></script>
+	<script egret="game" src="bin-debug/test/SatStudy.js"></script>
+	<script egret="game" src="bin-debug/utils/astar/AStar.js"></script>
+	<script egret="game" src="bin-debug/utils/astar/AStarGrid.js"></script>
+	<script egret="game" src="bin-debug/utils/astar/AStarNode.js"></script>
+	<script egret="game" src="bin-debug/utils/astar/TestAStar.js"></script>
+	<script egret="game" src="bin-debug/utils/btns.js"></script>
+	<script egret="game" src="bin-debug/utils/Button.js"></script>
+	<script egret="game" src="bin-debug/utils/CachePool.js"></script>
+	<script egret="game" src="bin-debug/utils/ChangeImg.js"></script>
+	<script egret="game" src="bin-debug/utils/PageShare.js"></script>
+	<script egret="game" src="bin-debug/utils/PanelDrag.js"></script>
+	<script egret="game" src="bin-debug/utils/PoolBM.js"></script>
+	<script egret="game" src="bin-debug/utils/PoolTF.js"></script>
+	<script egret="game" src="bin-debug/utils/TfTimerUpdate.js"></script>
+	<script egret="game" src="bin-debug/utils/TipShow.js"></script>
+	<script egret="game" src="bin-debug/utils/TwLittle.js"></script>
+	<script egret="game" src="bin-debug/utils/utils.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="showAll"
+         data-frame-rate="60"
+         data-content-width="640"
+         data-content-height="1136"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <script>
+        /**
+         * {
+         * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+         * "audioType": "" //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+         * }
+         **/
+        egret.runEgret({renderMode:"canvas", audioType:0});
+//		StartEgret('snsapi_base');// snsapi_base snsapi_userinfo
+    </script>
+</body>
+</html>
