@@ -2,13 +2,13 @@
 # Created by .gitignore support plugin (hsz.mobi)
 .idea/
 bin-debug/
-libs/
 bin-release/
 *.bat
 *.cmd
 obj/
 bin/
 assistant/
+template/
 
 
 # VisualStudio2013
